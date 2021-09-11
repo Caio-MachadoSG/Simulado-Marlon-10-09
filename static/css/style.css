@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #171A21;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+main {
+    display: grid;
+    text-align: center;
+    background-color: #1B2838;
+}
+
+main > h1 {
+    margin: 5px;
+}
+
+img {
+    max-width: 170px;
+}
+
+#jogos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game-corpo {
+    width: 250px;
+    margin: 5px;
+    padding: 7px;
+    background-color: #22394B;
+    color: white;
+}
+
+.game-header {
+    display: flex;
+    justify-content: center;
+}
+
+.game-header > h3 {
+    color: white;
+}
+
+.game-infos {
+    padding: 15px;
+}
+
+.precos {
+    display: flex;
+    justify-content: center;
+}
+
+.precos > h3 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.nota {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid;
+}
